@@ -1,0 +1,31 @@
+{
+  "name": "picos-mod-ble",
+  "version": "0.1.0",
+  "description": "ble central and peripheral module for picos",
+  "main": "central.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ldarren/picos-mod-ble.git"
+  },
+  "keywords": [
+    "ble",
+    "central",
+    "peripheral",
+    "picos"
+  ],
+  "author": "Darren Liew",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ldarren/picos-mod-ble/issues"
+  },
+  "homepage": "https://github.com/ldarren/picos-mod-ble#readme",
+  "dependencies": {
+    "pico-args": "^1.0.8",
+    "picos-session": "^0.1.0",
+    "noble": "^1.3.0",
+    "bleno": "^0.3.5"
+  }
+}
